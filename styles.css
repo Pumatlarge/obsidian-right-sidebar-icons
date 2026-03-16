@@ -12,7 +12,7 @@ body.right-sidebar-icons-enabled .workspace-split.mod-right-split.is-collapsed .
 }
 
 body.right-sidebar-icons-enabled .mod-right-split.is-sidedock-collapsed .workspace-tabs.mod-top.mod-top-right-space > .workspace-tab-header-container {
-  height: calc(100vh - 30px) !important;
+  height: calc(100vh - 40px) !important;
 }
 
 body.right-sidebar-icons-enabled .mod-right-split {
@@ -35,9 +35,9 @@ body.right-sidebar-icons-enabled .workspace-split.mod-right-split.is-sidedock-co
 body.right-sidebar-icons-enabled .mod-right-split .workspace-tabs.mod-top.mod-top-right-space > .workspace-tab-header-container {
   position: fixed !important;
   right: 0 !important;
-  top: 30px !important;
+  top: 40px !important;
   width: 38px !important;
-  height: calc(100vh - 30px) !important;
+  height: calc(100vh - 40px) !important;
   flex-direction: column !important;
   z-index: 99999 !important;
   background-color: var(--background-secondary) !important; /* 侧边栏图标区背景色 */
@@ -136,7 +136,7 @@ body.right-sidebar-icons-enabled .mod-right-split .workspace-tab-header-containe
 
 body.right-sidebar-icons-enabled .mod-right-split .workspace-tabs.mod-top.mod-top-right-space > .workspace-tab-container {
   margin-right: 38px !important;
-  padding-top: 30px !important;
+  padding-top: 40px !important;
   transition: margin-right 0.2s ease;
 }
 
@@ -165,7 +165,7 @@ body.right-sidebar-icons-enabled .mod-right-split::before {
   top: 0;
   left: 0;
   right: 140px;
-  height: 30px;
+  height: 40px;
   -webkit-app-region: drag !important;
   z-index: 9999;
   pointer-events: auto;
@@ -208,7 +208,7 @@ body.right-sidebar-icons-enabled .mod-right-split .workspace-tabs.mod-top.mod-to
 
 body.right-sidebar-icons-enabled .notice-container {
     position: fixed !important;
-    top: 30px !important;
+    top: 40px !important;
     right: 48px !important;
     z-index: 999999 !important;
     pointer-events: none !important;
