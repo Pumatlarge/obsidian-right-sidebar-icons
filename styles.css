@@ -17,7 +17,7 @@ body.right-sidebar-icons-enabled .mod-right-split.is-sidedock-collapsed .workspa
 
 body.right-sidebar-icons-enabled .mod-right-split {
   position: relative !important;
-  background-color: transparent !important;
+  background-color: var(--background-secondary-alt) !important; /* 统一设为标题栏背景色 */
 }
 
 body.right-sidebar-icons-enabled .workspace-split.mod-right-split.is-sidedock-collapsed,
@@ -40,8 +40,9 @@ body.right-sidebar-icons-enabled .mod-right-split .workspace-tabs.mod-top.mod-to
   height: calc(100vh - 40px) !important;
   flex-direction: column !important;
   z-index: 99999 !important;
-  background-color: var(--background-secondary) !important;
+  background-color: var(--background-secondary) !important; /* 侧边栏图标区背景色 */
   border-left: 1px solid var(--background-modifier-border) !important;
+  border-top: 1px solid var(--background-modifier-border) !important; /* 添加顶部边框，与标题栏分离 */
   border-bottom: none !important;
   padding: 0 !important;
   pointer-events: auto !important;
@@ -155,7 +156,7 @@ body.right-sidebar-icons-enabled .mod-right-split.is-sidedock-collapsed .workspa
 }
 
 body.right-sidebar-icons-enabled .mod-right-split .workspace-tabs.mod-top.mod-top-right-space {
-  background-color: var(--background-secondary) !important;
+  background-color: transparent !important;
 }
 
 body.right-sidebar-icons-enabled .mod-right-split::before {
@@ -168,8 +169,8 @@ body.right-sidebar-icons-enabled .mod-right-split::before {
   -webkit-app-region: drag !important;
   z-index: 9999;
   pointer-events: auto;
-  background-color: transparent !important;
-  border-bottom: none !important;
+  background-color: transparent !important; /* 保持透明，透出底层的 secondary-alt */
+  border: none !important;
 }
 
 body.right-sidebar-icons-enabled .titlebar-button {
