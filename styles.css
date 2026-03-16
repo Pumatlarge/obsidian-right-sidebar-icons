@@ -167,7 +167,8 @@ body.right-sidebar-icons-enabled .mod-right-split::before {
   -webkit-app-region: drag !important;
   z-index: 9999;
   pointer-events: auto;
-  background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary) !important;
+  border-bottom: 1px solid var(--background-modifier-border) !important;
 }
 
 body.right-sidebar-icons-enabled .titlebar-button {
