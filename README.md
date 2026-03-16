@@ -17,7 +17,8 @@ An Obsidian plugin that moves right sidebar icons to a persistent vertical bar a
 - **State Persistence**: Your custom icon order and sidebar state are automatically saved and restored when you open Obsidian.
 
 ### Preview
-![Preview](preview.png)
+![Light Mode](preview.png)
+![Dark Mode](preview-dark.png)
 
 ### Installation
 
@@ -67,7 +68,8 @@ MIT License
 - **状态持久化**：自定义的图标顺序和侧边栏状态会在打开 Obsidian 时自动保存并恢复。
 
 ### 预览
-![预览图](preview.png)
+![亮色模式](preview.png)
+![暗色模式](preview-dark.png)
 
 ### 安装方法
 
