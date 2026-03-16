@@ -21,6 +21,13 @@ An Obsidian plugin that moves right sidebar icons to a persistent vertical bar a
 
 ### Installation
 
+#### Via BRAT
+1. Install the **BRAT** plugin from the Obsidian community plugins store.
+2. Open BRAT settings: `Community Plugins` > `BRAT` > `Plugins List`.
+3. Click `Add Beta plugin`.
+4. Copy and paste the repository URL: `https://github.com/Pumatlarge/obsidian-right-sidebar-icons`.
+5. Click `Add Plugin`.
+
 #### Manual Installation
 1. Go to your Obsidian vault's `.obsidian/plugins/` directory.
 2. Create a new folder named `right-sidebar-icons`.
@@ -63,6 +70,13 @@ MIT License
 ![预览图](preview.png)
 
 ### 安装方法
+
+#### 通过 BRAT 安装
+1. 在 Obsidian 社区插件市场中安装 **BRAT** 插件。
+2. 打开 BRAT 设置：`第三方插件` > `BRAT` > `Plugins List`。
+3. 点击 `Add Beta plugin`。
+4. 复制并粘贴本仓库地址：`https://github.com/Pumatlarge/obsidian-right-sidebar-icons`。
+5. 点击 `Add Plugin`。
 
 #### 手动安装
 1. 进入你的 Obsidian 库的 `.obsidian/plugins/` 目录。
