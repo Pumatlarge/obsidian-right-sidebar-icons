@@ -8,7 +8,7 @@
     "build": "tsc -noEmit && node esbuild.config.mjs production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Feitong",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
