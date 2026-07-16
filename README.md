@@ -32,7 +32,7 @@ An Obsidian plugin that moves right sidebar icons to a persistent vertical bar a
 #### Manual Installation
 1. Go to your Obsidian vault's `.obsidian/plugins/` directory.
 2. Create a new folder named `right-sidebar-icons`.
-3. Download the `main.js`, `manifest.json`, and `styles.css` files from the latest release.
+3. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/Pumatlarge/obsidian-right-sidebar-icons/releases/latest).
 4. Place those three files inside the new folder.
 5. In Obsidian, go to Settings > Community Plugins, disable Safe Mode, and enable "Right Sidebar Icons".
 
@@ -51,7 +51,7 @@ To build the plugin from source:
 4. Run `npm run build` to create a production bundle.
 
 ### License
-MIT License
+[MIT License](LICENSE)
 
 ---
 
@@ -83,7 +83,7 @@ MIT License
 #### 手动安装
 1. 进入你的 Obsidian 库的 `.obsidian/plugins/` 目录。
 2. 创建一个名为 `right-sidebar-icons` 的新文件夹。
-3. 从最新发布版本中下载 `main.js`、`manifest.json` 和 `styles.css` 文件。
+3. 从[最新 Release](https://github.com/Pumatlarge/obsidian-right-sidebar-icons/releases/latest) 下载 `main.js`、`manifest.json` 和 `styles.css`。
 4. 将这三个文件放入该文件夹中。
 5. 在 Obsidian 中，前往“设置” > “第三方插件”，关闭安全模式，并启用 "Right Sidebar Icons"。
 
@@ -102,4 +102,4 @@ MIT License
 4. 运行 `npm run build` 创建正式版本。
 
 ### 许可
-MIT License
+[MIT License](LICENSE)

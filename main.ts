@@ -13,7 +13,7 @@ const DEFAULT_SETTINGS: RightSidebarIconsSettings = {
 }
 
 export default class RightSidebarIconsPlugin extends Plugin {
-	settings: RightSidebarIconsSettings;
+	settings: RightSidebarIconsSettings = DEFAULT_SETTINGS;
 	ribbonIconEl: HTMLElement | null = null;
 
 	async onload() {
@@ -140,8 +140,8 @@ export default class RightSidebarIconsPlugin extends Plugin {
 		const container = this.getIconContainer();
 		if (!container) return;
 
-		const headers = container.querySelectorAll('.workspace-tab-header');
-		headers.forEach((header: HTMLElement) => {
+		const headers = container.querySelectorAll<HTMLElement>('.workspace-tab-header');
+		headers.forEach((header) => {
 			if (header.getAttribute('data-sidebar-drag-setup')) return;
 			header.setAttribute('data-sidebar-drag-setup', 'true');
 			header.setAttribute('draggable', 'true');
